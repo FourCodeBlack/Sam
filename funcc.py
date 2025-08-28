@@ -39,7 +39,9 @@ def segbalik(a):
     for i in range(a, 0, -1):
         print("*" * i)
 
-segbalik(5)
+segbalik(6)
+
+print()
 
 for o in range(1, 9):
     print(" "* (9-o) + "*" * (2*o-1))
